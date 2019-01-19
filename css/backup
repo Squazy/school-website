@@ -1,0 +1,84 @@
+html {
+    background-color: #213163 
+    
+}
+
+p {
+    color: black
+}
+
+#date {
+    position: absolute;
+    right: 0px;
+    top: 4px;
+    font-size: 10px;
+    height: 12px;
+    text-align: right;
+    color: #FFF;
+}
+
+#slideshow { 
+    margin: 50px auto; 
+    position: relative; 
+    width: 980px; 
+    height: 305px; 
+    padding: 10px; 
+    box-shadow: 0 0 20px rgba(0,0,0,0.4); 
+}
+
+#slideshow > div { 
+    position: absolute; 
+    top: 10px; 
+    left: 10px; 
+    right: 10px; 
+    bottom: 10px; 
+}
+
+ul {
+    margin: 0px;
+    text-align: center;
+    vertical-align: 275%;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+li a {
+    color: white;
+    padding: 8px 60px;
+    margin: 0;
+    text-decoration: none;
+    font-size: 25px;
+    background-color: #1f3577;
+    border-radius: 300px;
+    float: left;
+    text-align: center;
+    margin-left:50px;
+}
+
+.dropdown {
+    color: white;
+    padding: 8px 60px;
+    margin: 0;
+    text-decoration: none;
+    font-size: 25px;
+    background-color: #1f3577;
+    border-radius: 300px;
+    float: left;
+    text-align: center;
+    margin-left:50px;
+}
+
+.dropdown-content {
+    display: none;
+    text-align: center;
+    vertical-align: 275%;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #f9f9f9;
+    color: #000;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
